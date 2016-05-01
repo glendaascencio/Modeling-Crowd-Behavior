@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="UTF-8">		
+	<script src="d3.min.js" charset="utf-8"></script>
+	<h1>Modeling Crowd Behavior</h1>
+	<style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #80D8FF; 
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        h1 {
+        	height: 3%;
+        	width: 100%;
+        	align-content: width;
+        	font-family: verdana;
+        	text-align: center;
+        	color:white;
+        }
+
+         p{
+        	text-align: center;
+        	font-size: 30px;
+        	font-family: verdana;
+         }
+
+        .button1 {
+		    background-color: #4CAF50; /* Green */
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 30px;
+		    margin: 0px 10px;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+		.button2 {
+			background-color: #F9A825; /* Blue */
+			border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 30px;
+		    margin: 0px 10px;
+		    cursor: pointer;
+		    border-radius: 5px;
+		} 
+		.button3 {
+			background-color: #f44336; /* Red */ 
+			border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 30px;
+		    margin: 0px 10px;
+		    cursor: pointer;
+		    border-radius: 5px;
+		} 
+
+		.button4 {
+			background-color: #2196F3; /* Blue */ 
+			border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 30px;
+		    margin: 0px 10px;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+		.button5 {
+			background-color: #795548; /* Brown */ 
+			border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 30px;
+		    margin: 0px 10px;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+
+		a {
+			color: white;
+		}
+
+
+    </style>
+</head>
+<body>
+	<!--script src="script.js"></script -->
+	<script type="text/javascript" src="adjust_x_both_directions.js">	
+	</script>
+	
+	<div>
+		
+		<div class="button4">
+			<button4 onClick="numPlayers()"> Number of players: 
+			</button4>
+			<input type="text" id="input1" />
+		</div>
+
+		<div class="button1">
+			<button1 onClick="run()">Start
+			</button1>
+		</div>
+
+		<div class="button2">
+			<button2 onClick="stop()">Stop
+			</button2>
+		</div>
+		
+		<div class="button3">
+			<button3 onClick="exit()">Exit
+			</button3>
+		</div>
+		
+		<div class="button5">
+			<button5 onClick="restart()"> 
+				<a href="index.html">
+	                Restart
+	            </a> 
+	        </button5>
+		</div>
+	</div>
+</body>
+</html>	
